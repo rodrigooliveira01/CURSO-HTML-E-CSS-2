@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio-8</title>
+
+<style>@charset "utf-8";
+
+div:hover{color: chartreuse;}
+/* div:hover{} quer dizer que a cor da div ira mudar quando passar o mouse por cima */
+
+div > p {display: none;} 
+/* div > p significa que a div tem um filho p e o {display:none;} quer dizer que o conteudo do paragrafo nao ira aparecer  */
+
+div:hover > p {display: block;
+color: white;
+background-color: black;}
+
+/* div:hover > p {display:block;} significa que o conteudo do paragrafo ira aparecer na tela quando o mouse for passado por cima   */
+
+</style>
+
+</head>
+<body>
+
+    <h1>sugundo exemplo de pseudoclasses :hover</h1>
+
+   <p>passe o mouse no texto abaixo </p>
+<div>
+    passe o mouse aqui !!
+    <p>TEXTO ESCONDIDO</p>
+</div>
+
+
+
+    
+</body>
+</html>
