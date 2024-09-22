@@ -5,18 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exercicio-9</title>
 </head>
+
+<style>
+
+body{font-family: Arial, Helvetica, sans-serif;}
+
+a{color: deeppink;
+text-decoration: none;
+font-weight: bold;}
+
+
+/*a:visited{color: greenyellow;}*/
+
+a:hover{color:indigo;
+text-decoration: underline;}
+
+a:active{color: aqua;}
+
+
+/* pseudo elementos */
+
+a::before{content: "link";
+color: darkgreen;}
+
+a::after{
+content: ' link ';
+color: blueviolet;
+text-decoration: none;
+font-weight: normal;}
+
+
+
+</style>
+
 <body>
 
     <h1>pseudoelementos</h1>
 
     <h2>personalizando links</h2>
 
-    <ul>
-        <li> <a href="https://github.com/rodrigooliveira01"></a>repositorio github</li>
-        <li> <a href="https://www.instagram.com/rodrigo_1dev"></a>instagran</li>
-        <li> <a href="https://www.youtube.com/@1dev-workstation"></a>canal do youtube</li>
-
-    </ul>
     
+    <ul>
+        <li><a href="https://github.com/rodrigooliveira01">repositório github</a></li>
+        <li><a href="https://www.instagram.com/rodrigo_1dev">instagram</a></li>
+        <li><a href="https://www.youtube.com/@1dev-workstation">canal do youtube</a></li>
+    </ul>
 </body>
 </html>
