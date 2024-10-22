@@ -27,8 +27,9 @@ a:hover{color: aqua;}
 
 main{background-color: #476850;
 padding: 10px;
-margin-bottom: 10px;
-text-align: center;}
+margin: auto;
+text-align: center;
+border-radius: 20px 0px;}
 
 article{background-color: #476850;
 padding: 4px;}
