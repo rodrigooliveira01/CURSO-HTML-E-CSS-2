@@ -1,3 +1,5 @@
 
-h1{border-image: url();
-border-image-slice: ;}
+h1{border: 10px solid black;
+border-image-source: url(Sem\ título.png);
+border-image-slice: 25;
+border-image-repeat: repeat;}
